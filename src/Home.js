@@ -5,9 +5,9 @@ const Home = () => {
 
   return (
     <div>
-        <div class="row mg-btm">
-            <div class="col-xl-4 flex-d"><img class="img_trophy" src="/asserts/1.png" alt="" /></div>
-            <div class="col-xl-8">
+        <div class="__row mg-btm">
+            <div class="col_4 flex-d"><img class="img_trophy" src="/asserts/1.png" alt="" /></div>
+            <div class="col_8">
                 <h2 class="heading"> C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h2>
                 <ul class="ul">
                     <li class="li">C.R.I.'s energy efficient products are well recognized by various Government Institutions, as trustworthy products for various projects across the globe to save energy.</li>

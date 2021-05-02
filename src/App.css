@@ -10,25 +10,21 @@ html{
     font-size: 62.5%;
 }
 
-@media screen and (max-width: 768px) {
-    html {
-        font-size: 56%;
-    }
+.__row{
+    display: flex;
+    width: 100%;
 }
-
+.col_4{
+    width: 100%;
+    max-width: 40%;
+}
+.col_8 {
+    width: 100%;
+    max-width: 60%;
+}
 .section{
     width: 100%;
-    padding: 1rem 10rem ;
-}
-@media screen and (max-width: 768px) {
-  .section{
-    padding: 1rem 4rem ;
-  }
-}
-@media screen and (max-width: 560px) {
-  .section{
-    padding: 1rem 3rem ;
-  }
+    padding: 1rem 2rem ;
 }
 
 .mg-btm{
@@ -41,13 +37,6 @@ html{
     height: 20rem;
 }
 
-@media screen and (max-width: 560px) {
-    .logo {
-        width: 100%;
-        height: auto;
-    }
-}
-
 .flex-d{
     display: flex;
     justify-content: center;
@@ -58,11 +47,6 @@ html{
 
 .img_trophy{
     height: 50rem;
-}
-@media screen and (max-width: 560px) {
-  .img_trophy{
-    height: 30rem;
-}
 }
 
 /* Award */
@@ -101,12 +85,6 @@ html{
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 560px) {
-    .gallery {
-        width: 100%;
-    }
-}
-
 .materials{
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -141,21 +119,45 @@ details{
     font-weight: 600;
     padding: 12px;
 }
+
+.footer_links{
+    margin-left: 1rem;
+}
+
 @media screen and (max-width: 768px) {
+    html {
+        font-size: 56%;
+    }
     .footer {
         font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width: 560px) {
+    .section{
+        padding: 1rem 3rem ;
+    }
+    .__row{
+        flex-direction: column;
+    }
+    .col_4{
+        max-width: 100%;
+    }
+    .col_8 {
+        max-width: 100%;
+    }
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+    .img_trophy{
+        height: 30rem;
+    }
+    .gallery {
+        width: 100%;
+    }
     .footer {
         flex-direction: column;
         height: 100%;
     }
-    }
-
-
-
-.footer_links{
-    margin-left: 1rem;
 }
