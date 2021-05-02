@@ -1,0 +1,161 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 56%;
+    }
+}
+
+.section{
+    width: 100%;
+    padding: 1rem 10rem ;
+}
+@media screen and (max-width: 768px) {
+  .section{
+    padding: 1rem 4rem ;
+  }
+}
+@media screen and (max-width: 560px) {
+  .section{
+    padding: 1rem 3rem ;
+  }
+}
+
+.mg-btm{
+    margin-bottom: 50px;
+}
+
+/* Logo */
+
+.logo{
+    height: 20rem;
+}
+
+@media screen and (max-width: 560px) {
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.flex-d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Trophy */
+
+.img_trophy{
+    height: 50rem;
+}
+@media screen and (max-width: 560px) {
+  .img_trophy{
+    height: 30rem;
+}
+}
+
+/* Award */
+
+.heading{
+    margin-bottom: 2rem;
+}
+
+.li,.txt{
+    font-size: 1.5rem;
+    width: 100%;
+    
+}
+
+.img_award{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Text */
+
+.txt2{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+/* Gallery */
+
+.img_section{
+    width: 100%;
+    flex-direction: column;
+    border-bottom: 1px solid red;
+}
+.gallery{
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 560px) {
+    .gallery {
+        width: 100%;
+    }
+}
+
+.materials{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+/* Details */
+
+details{
+    width: 100%;
+}
+
+.hd{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.detail_list{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Footer */
+
+.footer{
+    height: 10vh;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 12px;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .footer {
+        flex-direction: column;
+        height: 100%;
+    }
+    }
+
+
+
+.footer_links{
+    margin-left: 1rem;
+}
